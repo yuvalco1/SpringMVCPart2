@@ -8,7 +8,7 @@
     <p>Our mood today:
     <strong>${mode}<strong></p>
 
-   how are you  ${param}
+   how are you  ${name}
 
   hello world!
 

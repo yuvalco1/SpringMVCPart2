@@ -30,7 +30,7 @@ public class MyController {
         ModelAndView modelAndView = new ModelAndView("greet", usersFromDB);
         String message = mode.equals("happy") ? "we are happy today :)" : "we are sad today :(";
         modelAndView.addObject("mode", message);
-        modelAndView.addObject("param", name);
+        modelAndView.addObject("name", name);
         return modelAndView;
     }
 
