@@ -12,7 +12,7 @@ public class AppConfig {
     @Bean
     public ViewResolver getViewResolver() {
 
-        return new InternalResourceViewResolver("/WEB-INF/jsp/",".jsp");
+        return new InnnternalResourceViewResolver("/WEB-INF/jsp/",".jsp");
     }
 
 }
