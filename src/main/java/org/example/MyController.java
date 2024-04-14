@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.Date;
 import java.util.Map;
 
-@Controller
+//@Controller
 public class MyController {
     //localhost:8080/myapp/ -> do something1:
     //localhost:8080/myapp/greet/ -> do something 2:
